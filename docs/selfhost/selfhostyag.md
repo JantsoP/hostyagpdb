@@ -173,7 +173,7 @@ To download YAGPDB, run the following commands:
 ```
 git clone https://github.com/botlabs-gg/yagpdb
 cd yagpdb/cmd/yagpdb
-sh build.sh
+go build 
 ```
 This process may take a while, so go grab a cup of tea.
 
@@ -191,7 +191,7 @@ Also, this will run bot in ports 5000 and 5001.
 If you want to run it on ports 80 and 443, add flag -pa
 :::
 
-This will run YAGPDB as long as your terminal session remains open. If You'd like to keep YAGPDB and close your session, I recommend using nohup. You can learn how to use nohup [here](https://hexadix.com/use-nohup-execute-commands-background-keep-running-exit-shell-promt/)
+This will run YAGPDB as long as your terminal session remains open. If you'd like to keep YAGPDB and close your session, I recommend using nohup. You can learn how to use nohup [here](https://hexadix.com/use-nohup-execute-commands-background-keep-running-exit-shell-promt/).
 
 ---
 
